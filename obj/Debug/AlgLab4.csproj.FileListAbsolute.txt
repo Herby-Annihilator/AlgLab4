@@ -1,0 +1,9 @@
+C:\VS_Projects\AlgLab4\bin\Debug\AlgLab4.exe.config
+C:\VS_Projects\AlgLab4\bin\Debug\AlgLab4.exe
+C:\VS_Projects\AlgLab4\bin\Debug\AlgLab4.pdb
+C:\VS_Projects\AlgLab4\bin\Debug\LibraryForAlgLab.dll
+C:\VS_Projects\AlgLab4\bin\Debug\LibraryForAlgLab.pdb
+C:\VS_Projects\AlgLab4\obj\Debug\AlgLab4.csprojAssemblyReference.cache
+C:\VS_Projects\AlgLab4\obj\Debug\AlgLab4.csproj.CopyComplete
+C:\VS_Projects\AlgLab4\obj\Debug\AlgLab4.exe
+C:\VS_Projects\AlgLab4\obj\Debug\AlgLab4.pdb
