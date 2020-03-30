@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace AlgLab4
 {
@@ -11,7 +12,7 @@ namespace AlgLab4
     /// </summary>
     public class Component
     {
-        public int EdgeCount { get { return Edges.Count; } }
+        public int EdgeCount { get { if (Edges == null) return 0; return Edges.Count; } }
         public int VertexCount { get { return Vertices.Count; } }
 
         public List<Vertex> Vertices { get; private set; }
@@ -32,6 +33,14 @@ namespace AlgLab4
                 Vertices = vertices;
             }
             ID = id;
+            if (edges == null)
+            {
+                Edges = new List<Edge>();
+            }
+            else
+            {
+                Edges = edges;
+            }
         }
         /// <summary>
         /// Производит слияние двух компонент связности. В каждой компоненте должна быть хотябы одна вершина
@@ -132,5 +141,6 @@ namespace AlgLab4
             }
             return smallestPath;
         }
+
     }
 }

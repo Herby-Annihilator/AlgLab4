@@ -28,7 +28,25 @@ namespace AlgLab4
         /// <summary>
         /// список ребер, инцидентных данной вершине
         /// </summary>
-        public List<Edge> Edges { get; set; }
+        public List<Edge> Edges
+        {
+            get
+            {
+                return edges;
+            }
+            set
+            {
+                if (value == null)
+                {
+                    edges = new List<Edge>();
+                }
+                else
+                {
+                    edges = value;
+                }
+            }
+        }
+        private List<Edge> edges;
 
         /// <summary>
         /// принадлежность данной вершины конктретной компоненте связности
