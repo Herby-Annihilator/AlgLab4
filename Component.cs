@@ -81,7 +81,7 @@ namespace AlgLab4
                 workingPair = shortestPathVertexs[0];
                 for (int i = 1; i < shortestPathVertexs.Count; i++)
                 {
-                    if (workingPair.SmallestVertexID() < shortestPathVertexs[i].SmallestVertexID())
+                    if (workingPair.SmallestVertexID() > shortestPathVertexs[i].SmallestVertexID())
                     {
                         workingPair = shortestPathVertexs[i];
                     }
